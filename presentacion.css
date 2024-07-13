@@ -1,0 +1,31 @@
+.main__presentation {
+    display: grid;
+    grid-template-areas: "information photo";
+    width: 93vw;
+    margin: auto;
+}
+
+.img__main___presentation {
+    grid-area: photo;
+    width: 20vw;
+    border-radius: 50%;
+    margin: 0 1rem 5vh 1rem;
+}
+
+.article__main___presentation {
+    grid-area: information;
+    margin: 5vh 1rem 5vh 1rem;
+    text-align: left;
+    width: 60vw;
+}
+
+.ul__div___presentation {
+    margin: 0%;
+    padding: 0%;
+}
+
+.li__div___presentation {
+    margin-right: 4rem;
+    margin-left: 0%;
+    padding: 0%;
+}
